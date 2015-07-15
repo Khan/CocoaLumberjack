@@ -612,7 +612,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DSTROOT = /tmp/Lumberjack.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Lumberjack/Lumberjack-Prefix.pch";
+				GCC_PREFIX_HEADER = "../Lumberjack/CocoaLumberjack-Prefix.pch";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = include/CocoaLumberjack;
@@ -629,7 +629,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DSTROOT = /tmp/Lumberjack.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Lumberjack/Lumberjack-Prefix.pch";
+				GCC_PREFIX_HEADER = "../Lumberjack/CocoaLumberjack-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = include/CocoaLumberjack;
 				PRODUCT_NAME = "CocoaLumberjack-Mac";
