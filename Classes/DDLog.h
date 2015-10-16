@@ -460,6 +460,8 @@ typedef NS_OPTIONS(NSInteger, DDLogMessageOptions) {
     NSString *_queueLabel;
 }
 
+- (instancetype)init __attribute__((unavailable()));
+
 /**
  * Standard init method for a log message object.
  * Used by the logging primitives. (And the macros use the logging primitives.)

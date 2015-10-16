@@ -1120,7 +1120,13 @@ static int exception_count = 0;
     return [[self alloc] initWithFilePath:aFilePath];
 }
 
+- (instancetype)init {
+	return [self initWithFilePath:nil];
+}
+
 - (instancetype)initWithFilePath:(NSString *)aFilePath {
+	NSParameterAssert(aFilePath);
+	
     if ((self = [super init])) {
         filePath = [aFilePath copy];
     }
